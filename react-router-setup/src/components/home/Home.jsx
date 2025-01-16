@@ -5,7 +5,10 @@ import Navbar from "../navBar/Navbar"
 export default function Home() {
   return (
     <div>
-        <h2>Welcome to homepage</h2>
+        <div className="flex justify-between items-center">
+          <h2>Router</h2>
+          <span>Profile</span>
+        </div>
         <Navbar></Navbar>
         <Outlet></Outlet>
         <Footer></Footer>
